@@ -7,6 +7,6 @@ class Question
     @number_one = rand(1..20)
     @number_two = rand(1..20)
     @question = "What does #{@number_one} plus #{@number_two} equal?"
-    @answer = @number_one + @number_one
+    @answer = @number_one + @number_two
   end
 end

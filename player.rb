@@ -2,9 +2,10 @@
 
 class Player
   attr_accessor :lives
+  attr_reader :id
 
   def initialize(id)
     @lives = 3
-    @player_id = id
+    @id = id
   end
 end
